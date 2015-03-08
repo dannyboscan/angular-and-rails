@@ -4,6 +4,7 @@
 you can found this tutorial [here](https://thinkster.io/angular-rails/)
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.15892.svg)](http://dx.doi.org/10.5281/zenodo.15892)
+[![Code Climate](https://codeclimate.com/github/dannyboscan/angular-and-rails/badges/gpa.svg)](https://codeclimate.com/github/dannyboscan/angular-and-rails)
 
 ### Introduction
 The goal of this tutorial is to guide you through the creation of a Reddit/Hacker News clone using Rails 4 and AngularJS. By completing this tutorial, you will gain a basic understanding of Rails and AngularJS, using Rails to build a JSON REST API that interacts with an AngularJS frontend.
