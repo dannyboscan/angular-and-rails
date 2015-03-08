@@ -7,7 +7,7 @@ var myApp = angular.module('flapperNews',[
 	'Devise'
 	]);
 
-// Configuración
+// Configuracion
 myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
 	$stateProvider
@@ -38,7 +38,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $
 		onEnter: ['$state', 'Auth', function($state, Auth) {
 			Auth.currentUser().then(function (){
 				$state.go('home');
-			})
+			});
 		}]
 	})
 	.state('register', {
@@ -48,7 +48,7 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $
 		onEnter: ['$state', 'Auth', function($state, Auth) {
 			Auth.currentUser().then(function (){
 				$state.go('home');
-			})
+			});
 		}]
 	});
 
